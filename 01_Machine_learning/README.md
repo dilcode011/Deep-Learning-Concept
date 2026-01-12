@@ -14,7 +14,15 @@ Machine Learning is generally categorized into three main types:
 ### A. Supervised Learning (The "Teacher" Approach)
 The model learns from labeled data. You tell the model: *"Here is an image of a cat, and here is an image of a dog. Now learn the difference."*
 * **Regression:** Predicting a continuous number (e.g., House Prices, Stock Value).
+- [x] 1.1 Linear Regression
+- [x] 1.2 Ridge Regression
+- [x] 1.3 Lasso Regression
+- [x] 1.4 Elastic Net
 * **Classification:** Predicting a category (e.g., Spam or Not Spam, Cat or Dog).
+- [x] 1.1 Logistic Regression
+- [x] 1.2 Decision Tree Classifier
+- [x] 1.3 Support Vector Machine (SVM)
+- [ ] 1.6 Random Forest Classifier
 
 ### B. Unsupervised Learning (The "Self-Study" Approach)
 The model learns from unlabeled data. You give the model raw data and ask it to find patterns.
