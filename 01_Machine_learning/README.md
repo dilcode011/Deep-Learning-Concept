@@ -24,6 +24,7 @@ The model learns from labeled data. You tell the model: *"Here is an image of a 
 - [x] 1.3 Support Vector Machine (SVM)
 - [x].1.4 Random Forest Classifier
 - [x] 1.5 K-Nearest Neighbors (KNN)
+- [x] 1.6 Naive Bayes
 
 ### B. Unsupervised Learning (The "Self-Study" Approach)
 The model learns from unlabeled data. You give the model raw data and ask it to find patterns.
