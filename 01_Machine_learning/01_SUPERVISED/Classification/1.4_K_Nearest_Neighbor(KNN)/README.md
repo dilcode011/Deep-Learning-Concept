@@ -23,12 +23,16 @@ How do we measure "closeness"?
 The straight-line distance between two points $(x_1, y_1)$ and $(x_2, y_2)$.
 $$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
 
+<img src="euclidean.png"/>
+
 ### Manhattan Distance (Taxicab Geometry or L1)
 The distance if you could only move along a grid (like city blocks)
 measures how far apart two points are by summing the absolute differences of their coordinates. Unlike straight-line (Euclidean) distance, it calculates distance along grid-like paths like a taxi navigating city streets rather than cutting through buildings.
 
 $$d = |x_2 - x_1| + |y_2 - y_1|$$
+
 <img src="Example.png"/>
+
 ## 3. Critical Requirement: Feature Scaling
 **⚠️ Important:** Because KNN calculates distance, it is highly sensitive to the scale of data.
 * If Feature A ranges from 0-1 (small) and Feature B ranges from 0-1000 (large), Feature B will dominate the distance calculation.
