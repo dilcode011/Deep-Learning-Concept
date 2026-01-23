@@ -9,13 +9,13 @@ It is based on **Jerome Friedman's** classic paper: *"Greedy Function Approximat
 
 | File Name | Description |
 |:--- |:--- |
-| **`GBM_Math_Explained.ipynb`** | **The Theory.** A deep dive into the mathematical derivation of Gradient Boosting. It explains how we treat model training as an optimization problem in function space using pseudo-residuals. |
-| **`GBM_Implementation.ipynb`** | **The Code.** A step-by-step Python implementation of the algorithm on a custom dataset without using the `GradientBoostingClassifier` library. |
+| **`gradient-boosting-classification.ipynb`** | **The Theory.** A deep dive into the mathematical derivation of Gradient Boosting. It explains how we treat model training as an optimization problem in function space using pseudo-residuals. |
+| **`gradient-boosting-classification-demo.ipynb`** | **The Code.** A step-by-step Python implementation of the algorithm on a custom dataset without using the `GradientBoostingClassifier` library. |
 
 ---
 
 ## 🧠 Part 1: The Math (Theory)
-**Focus:** `GBM_Math_Explained.ipynb`
+**Focus:** gradient-boosting-classification.ipynb`
 
 This notebook explains the core intuition behind Boosting:
 1.  **Additive Modeling:** We build the model sequentially, adding weak learners (Decision Trees) one by one.
@@ -29,7 +29,7 @@ This notebook explains the core intuition behind Boosting:
 ---
 
 ## 💻 Part 2: The Implementation (Code)
-**Focus:** `GBM_Implementation.ipynb`
+**Focus:** `gradient-boosting-classification-demo.ipynb`
 
 We implement the algorithm on a **Student Placement Dataset** (`cgpa`, `iq` $\rightarrow$ `is_placed`).
 
@@ -51,10 +51,11 @@ We implement the algorithm on a **Student Placement Dataset** (`cgpa`, `iq` $\ri
 ## 🚀 How to Run
 1.  Navigate to this folder:
     ```bash
-    cd Machine-Learning-Concepts/01_Gradient_Boosting
+    cd Machine-Learning-Concepts/02_Boosting
     ```
 2.  Launch Jupyter Notebook:
     ```bash
     jupyter notebook
     ```
-3.  Open `GBM_Implementation.ipynb` to see the code in action.
+3.  Open `gradient-boosting-classification-demo.ipynb` to see the code in action.
+
