@@ -47,7 +47,9 @@ Each folder contains:
 ## 📂 Repository Structure
 
 ```text
-├── 01_Deep_Learning/          # Neural Networks, CNNs, GANs
-Transformers
+├── Deep-Learning-Concept          # Neural Networks, CNNs, GANs
+├────01_ANN_Foundations
+├────02_CNN_Mechanics
+├────03_Advanced_Transfer_Learning
 ├── requirements.txt           # Dependencies
 └── README.md                  # You are here
