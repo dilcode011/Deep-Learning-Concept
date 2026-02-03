@@ -1,0 +1,17 @@
+# Data Manipulation
+numpy
+pandas
+
+# Machine Learning & Preprocessing
+scikit-learn
+
+# Deep Learning Frameworks
+tensorflow
+keras
+
+# Visualization
+matplotlib
+seaborn
+
+# Hyperparameter Tuning (Since you used it for your Diabetes project)
+keras-tuner
