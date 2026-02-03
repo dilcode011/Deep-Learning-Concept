@@ -1,0 +1,10 @@
+# Ignore data > 100MB
+*.csv
+*.zip
+
+# Ignore system files
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
+venv/
+env/
