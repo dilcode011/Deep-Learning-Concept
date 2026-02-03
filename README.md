@@ -49,7 +49,6 @@ Each folder contains:
 ```text
 ├── 01_Machine_Learning/       # Classical Algorithms (Regression, Clustering, etc.)
 ├── 02_Deep_Learning/          # Neural Networks, CNNs, GANs
-├── 03_NLP/                    # Text Processing, Embeddings, Transformers
+Transformers
 ├── requirements.txt           # Dependencies
 └── README.md                  # You are here
->>>>>>> ml_origin/main
