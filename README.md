@@ -1,55 +1,46 @@
-
 #  Deep Learning Concepts & Experiments
 
-##  Repository Overview
-This repository serves as a collection of my hands-on experiments and study notes on Deep Learning architectures. The goal is to isolate specific concepts (like CNN arithmetic, Vanishing Gradients, or Activation Functions) and demonstrate how they work mathematically and programmatically using **TensorFlow/Keras**.
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Library](https://img.shields.io/badge/Library-TensorFlow%20%7C%20Keras%20%7C%20NumPy-orange)
+![Status](https://img.shields.io/badge/Status-Active%20Learning-green)
 
-##  Contents
+A comprehensive repository containing implementations, mathematical explanations, and hands-on experiments across Deep Learning architectures.
 
-| Notebook File | Topic | Key Concepts Demonstrated |
-|:--- |:--- |:--- |
-| `CNN_Padding_Strides_Demo.ipynb` | **CNN Mechanics** | Padding (`valid` vs `same`), Strides, and Pooling layers. |
-| *(Future uploads)* | ... | ... |
-
----
-
-## 🛠️ Tech Stack
-* **Python**
-* **TensorFlow / Keras**
-* **NumPy**
-
-##  How to Run
-1.  Clone this repository:
-    ```bash
-    git clone [https://github.com/YOUR_USERNAME/Deep-Learning-Experiments.git](https://github.com/YOUR_USERNAME/Deep-Learning-Experiments.git)
-    ```
-2.  Open the desired notebook in **Jupyter** or **Google Colab**.
-3.  Run the cells to view the `model.summary()` outputs and observe the shape transformations.
-=======
-# The-Algorithm-Vault
-ALL ABOUT MACHINE LEARNING , DEEP LEARNING , NLP and more.
-
-#  Machine Learning, Deep Learning & NLP Repository
-
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Library](https://img.shields.io/badge/Library-Scikit--Learn%20%7C%20TensorFlow%20%7C%20PyTorch-orange)
-![Status](https://img.shields.io/badge/Status-Learning-green)
-
-A comprehensive repository containing implementations, resources, and mathematical explanations for algorithms across Machine Learning, Deep Learning, and Natural Language Processing (NLP).
-
-Each folder contains:
-1.  **Code:** `.ipynb` notebooks with step-by-step implementations.
-2.  **Theory:** `README.md` explaining the math and intuition.
-3.  **Resources:** Curated links to papers, videos, and articles.
+The goal is to isolate specific concepts (like CNN arithmetic, Vanishing Gradients, or Activation Functions) and demonstrate how they work mathematically and programmatically.
 
 ---
 
 ##  Repository Structure
 
 ```text
-├── Deep-Learning-Concept          # Neural Networks, CNNs, GANs
-├────01_ANN_Foundations
-├────02_CNN_Mechanics
-├────03_Advanced_Transfer_Learning
-├── requirements.txt           # Dependencies
-└── README.md                  # You are here
+DEEP-LEARNING-CONCEPTS/
+│
+├── 01_ANN_Foundations/             # Core Neural Network concepts
+│   ├── activation_visualizer.ipynb
+│   ├── ann_with_keras.ipynb
+│   ├── scaler_pipeline.ipynb
+│   └── simple_neuron.ipynb
+│
+├── 02_CNN_Mechanics/               # Computer Vision & CNNs
+│   ├── Architecture/
+│   ├── CNN_dims/
+│   └── Data_Augmentation/
+│
+├── 03_Advanced_Transfer_Learning/  # Using Pretrained Models
+│   ├── Fine Tuning Vs Feature Extraction/
+│   ├── Functional_API/
+│   └── Pretrained_Models/
+│
+├── 04_RNN_Basics/                  # Recurrent Neural Networks
+│   └── (Intro to Sequence Data)
+│
+├── 05_LSTM/                        # Long Short-Term Memory
+│   └── (Vanishing Gradient solutions)
+│
+├── 06_GRU/                         # Gated Recurrent Units
+│   └── (Efficient gating mechanisms)
+│
+├── 07_Bidirectional_RNN/           # Advanced Sequence Modeling
+│   └── Bidirectional_RNN.md        # Concept & Math explanation
+│
+└── requirements.txt                # Project dependencies
