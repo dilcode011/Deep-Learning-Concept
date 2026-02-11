@@ -1,10 +1,10 @@
-<<<<<<< HEAD
-# 🧠 Deep Learning Concepts & Experiments
 
-## 📌 Repository Overview
+#  Deep Learning Concepts & Experiments
+
+##  Repository Overview
 This repository serves as a collection of my hands-on experiments and study notes on Deep Learning architectures. The goal is to isolate specific concepts (like CNN arithmetic, Vanishing Gradients, or Activation Functions) and demonstrate how they work mathematically and programmatically using **TensorFlow/Keras**.
 
-## 📂 Contents
+##  Contents
 
 | Notebook File | Topic | Key Concepts Demonstrated |
 |:--- |:--- |:--- |
@@ -18,7 +18,7 @@ This repository serves as a collection of my hands-on experiments and study note
 * **TensorFlow / Keras**
 * **NumPy**
 
-## 🚀 How to Run
+##  How to Run
 1.  Clone this repository:
     ```bash
     git clone [https://github.com/YOUR_USERNAME/Deep-Learning-Experiments.git](https://github.com/YOUR_USERNAME/Deep-Learning-Experiments.git)
@@ -29,7 +29,7 @@ This repository serves as a collection of my hands-on experiments and study note
 # The-Algorithm-Vault
 ALL ABOUT MACHINE LEARNING , DEEP LEARNING , NLP and more.
 
-# 🧠 Machine Learning, Deep Learning & NLP Repository
+#  Machine Learning, Deep Learning & NLP Repository
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Library](https://img.shields.io/badge/Library-Scikit--Learn%20%7C%20TensorFlow%20%7C%20PyTorch-orange)
@@ -44,7 +44,7 @@ Each folder contains:
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```text
 ├── Deep-Learning-Concept          # Neural Networks, CNNs, GANs
