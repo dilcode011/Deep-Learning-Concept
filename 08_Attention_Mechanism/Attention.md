@@ -37,6 +37,3 @@ $$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)
 ## 🚀 Why this killed the LSTM
 * **No Vanishing Gradients:** Every word has a direct mathematical link to every other word, bypassing the sequential "chain" of LSTMs.
 * **Massive Parallelization:** LSTMs must run sequentially (word 1, then word 2). Attention calculates all $Q, K, V$ matrices simultaneously, allowing models to train on thousands of GPUs at once.
-
----
-*Author: [Aparna](https://github.com/dilcode011)*
