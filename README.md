@@ -43,4 +43,7 @@ DEEP-LEARNING-CONCEPTS/
 ├── 07_Bidirectional_RNN/           # Advanced Sequence Modeling
 │   └── Bidirectional_RNN.md        # Concept & Math explanation
 │
+├── 08_Attention_Mechanism/          
+│   └── Attention.md        # Concept & Math explanation
+|
 └── requirements.txt                # Project dependencies
